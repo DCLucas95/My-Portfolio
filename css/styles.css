@@ -1,0 +1,63 @@
+h1 {
+    text-align: center;
+}
+
+#logo {
+    color: coral;
+    font-weight: bold;
+}
+
+/*Background image for website*/
+body{
+    background-image: url("../assets/soft-colored-abstract-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headshot {
+    padding-bottom: 30px;
+}
+
+.information {
+    margin: 40px auto;
+    padding: 20px;
+    background-color:ivory;
+    color: black;
+}
+
+hr{
+    background-color: ivory;
+    height: 3px;
+}
+
+.portfolio-image {
+    padding: 30px;
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 5px;
+  border-width: 1px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+  color: hsl(206, 17%, 28%);
+  font-size: 18px;
+  margin: 15px auto;
+  max-width: 400px;
+  padding: 30px 40px;
+  display: inline-block;
+  text-align: center;
+}
+
+.btn {
+    margin-top: 3px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color:#343a40;
+    border-top-style: solid;
+    border-top-width: 10px;
+    border-color:coral;
+  }
