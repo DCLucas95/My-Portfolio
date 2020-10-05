@@ -3,32 +3,36 @@ h1 {
 }
 
 #logo {
-    color: coral;
+    color: white;
     font-weight: bold;
 }
 
+nav {
+    border-bottom-style: solid;
+    border-bottom-width: 10px;
+    border-color:coral;
+}
+
 /*Background image for website*/
-body{
+/*body{
     background-image: url("../assets/soft-colored-abstract-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+}*/
+
+.container {
+    height: 80%;
+    width: 80%;
 }
 
 .headshot {
     padding-bottom: 30px;
 }
 
-.information {
-    margin: 40px auto;
-    padding: 20px;
-    background-color:ivory;
-    color: black;
-}
-
 hr{
     background-color: ivory;
     height: 3px;
-}
+    }
 
 .portfolio-image {
     padding: 30px;
@@ -52,6 +56,10 @@ hr{
     margin-top: 3px;
 }
 
+a {
+    color: black;
+  }
+
 footer {
     position: fixed;
     bottom: 0;
@@ -61,3 +69,5 @@ footer {
     border-top-width: 10px;
     border-color:coral;
   }
+
+ 
