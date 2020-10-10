@@ -1,3 +1,7 @@
+* {
+    color: white;
+}
+
 h1 {
     text-align: center;
 }
@@ -9,16 +13,9 @@ h1 {
 
 nav {
     border-bottom-style: solid;
-    border-bottom-width: 10px;
+    border-bottom-width: 5px;
     border-color:coral;
 }
-
-/*Background image for website*/
-/*body{
-    background-image: url("../assets/soft-colored-abstract-background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}*/
 
 .container {
     height: 80%;
@@ -26,20 +23,17 @@ nav {
 }
 
 .headshot {
-    padding-bottom: 30px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #3e4444;
 }
-
-hr{
-    background-color: ivory;
-    height: 3px;
-    }
 
 .portfolio-image {
     padding: 30px;
 }
 
 .card {
-  background-color: hsl(0, 0%, 100%);
+  background-color: #3e4444;
   border-radius: 5px;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
@@ -57,7 +51,7 @@ hr{
 }
 
 a {
-    color: black;
+    color: white;
   }
 
 footer {
@@ -66,8 +60,10 @@ footer {
     width: 100%;
     background-color:#343a40;
     border-top-style: solid;
-    border-top-width: 10px;
+    border-top-width: 5px;
     border-color:coral;
   }
+  
+  
 
  
